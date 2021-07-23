@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+html, body {
+    min-width: 290px;
+    color: rgb(255, 255, 255);
+    background-image: url(https://www.sheplersferry.com/wp-content/uploads/2016/08/1183588-mountains-pc-background.jpg);
+    font-family: 'Lobster', cursive;
+    line-height: 1.5;
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+}
+header {
+    display: block;
+}
+header {
+    color: black;
+    margin: 10px;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: thin;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    color: beige;
+    background:rgba(0, 0, 0, 0.412);
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    margin-left: 40vw;
+    list-style: none;
+}
+main {
+    display: block;
+}
+#main-contenido {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
+section {
+    display: block;
+}
+#main-contenido header {
+    text-align: left;
+    margin: 0px;
+}
+section article {
+    color: white;
+    margin: 15px;
+    font-size: 0.96em;
+}
+p {
+    display: flex;
+    justify-content: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+section img{
+    display: flex;
+    margin: 10vh 10vw;
+    padding: 0%;
+  
+}
+form{
+    padding: 20px;
+    margin: 0 auto;
+    width: 20vw; 
+    margin-top: 5vh;
+}
+.cuadroText{
+    margin-left: 0px;
+    border-radius: 2px rgb(137, 255, 3);
+    padding: 4px;
+    justify-content: center;
+    width: 20vw;
+    height: 5vh;
+}
+.btn{
+    
+    justify-content: center;
+    margin-left: 110px;
+}
